@@ -1,4 +1,4 @@
-#Evens between query range using function
+#question2- Evens between query range using function
 def print_even(a,b):
     even=[]
     for num in range(a,b+1):
@@ -54,6 +54,8 @@ N=int(input("Enter a natural number: "))
 result=sum_digit(N)
 print(f"Total number of digits in {N} is: {result}")
 
+
+#question
 def div(n):
     div=[]
     for i in range(1, n+1):
@@ -118,6 +120,20 @@ def calculator():
 
 print(calculator())
 
+#question 10
+secret_num=7
+def guess_game():
+    guess_num=int(input("Enter a number between 1 to 10: "))
+    if (guess_num>secret_num):
+        print("Too High")
+    elif(guess_num<secret_num):
+        print("Too Low")
+    elif(guess_num==secret_num):
+        print("Correct!")
+    else:
+        print("invalid input")
+
+guess_game()
 
         
  
@@ -126,4 +142,3 @@ print(calculator())
   
 
     
-
