@@ -50,9 +50,9 @@ student = {
     "reema":32,
     "shruti":44
 }
-
 print(type(student))
 print(student) """
+
 
 
 
