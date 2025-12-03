@@ -50,10 +50,21 @@ student = {
     "reema":32,
     "shruti":44
 }
+
 print(type(student))
 print(student) """
 
+list=list(map(int,input("Enter numbers : ").split()))
 
+seen=set()
+duplicate=set()
 
+for el in list:
+    if el in seen:
+        duplicate.add(el)
+    else:
+        seen.add(el)
+
+print(duplicate)
 
 
