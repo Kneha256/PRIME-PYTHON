@@ -1,6 +1,6 @@
 #creat, add, and read using with
 # with open("sample2.txt", "x") as f:
-#     f.write("this is a demo file \nto store some words\nfor the Python activity \nThat is to be solved by us.")
+# f.write("this is a demo file \nto store some words\nfor the Python activity \nThat is to be solved by us.")
 # with open("sample2.txt", "r") as f:
 #     print(f.read())
 
