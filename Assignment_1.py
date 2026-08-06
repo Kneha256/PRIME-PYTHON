@@ -7,6 +7,7 @@ print(f"hello {name}, you are {age} years old!")
 print("hello", name, ",", "your are", age, "years old!")
 print("hello {}, you are {} years old!".format(name, age)) """
 
+
 #second question
 """
 num1=int(input("Enter first number:"))
